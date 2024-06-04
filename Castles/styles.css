@@ -30,6 +30,7 @@ h3 {
 
 p {
     line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 .contact {
@@ -78,10 +79,22 @@ a:active {
     align-items: center;
 }
 
+.btn-group-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media (max-width:768px) {
 .btn-group {
    gap: .5rem;
  }
+
+ .btn-group-1 {
+    display: block;
+}
+
 }
 
 .btn-dark {
